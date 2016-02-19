@@ -1,0 +1,285 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>XXX医疗设备公司</title>
+  <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+  <script src="js/jquery.min.js"></script>
+  <!-- Custom Theme files -->
+  <link href="css/style.css" rel='stylesheet' type='text/css' />
+  <!-- Custom Theme files -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+  <!-- webfonts -->
+  <link href='http://fonts.useso.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
+  <!-- webfonts -->
+</head>
+<body>
+<!-- container -->
+<!-- header -->
+<div class="header">
+  <div class="container">
+    <!-- logo -->
+    <div class="logo">
+      <a href="#" style=' color:#fff;  '>公司LOGO</a>
+    </div>
+    <!-- logo -->
+    <!-- top-nav -->
+    <div class="top-nav">
+      <span class="menu"> </span>
+      <ul>
+        <li class="active"><a href="#">首页</a></li>
+        <li><a href="#">关于我们</a></li>
+        <li><a href="#">服务</a></li>
+        <li><a href="#">产品</a></li>
+        <li><a href="#">联系我们</a></li>
+      </ul>
+    </div>
+    <!-- top-nav -->
+    <!-- script-for-nav -->
+    <script>
+      $(document).ready(function(){
+        $("span.menu").click(function(){
+          $(".top-nav ul").slideToggle(300);
+        });
+      });
+    </script>
+    <!-- script-for-nav -->
+    <div class="clearfix"> </div>
+  </div>
+</div>
+<!-- /header -->
+</div>
+<!-- /container -->
+<!-- banner -->
+<div class="benner">
+  <!-- slider -->
+  <!--- img-slider --->
+  <div class="img-slider">
+    <!----start-slider-script---->
+    <script src="js/responsiveslides.min.js"></script>
+    <script>
+      // You can also use "$(window).load(function() {"
+      $(function () {
+        // Slideshow 4
+        $("#slider4").responsiveSlides({
+          auto: true,
+          pager: true,
+          nav: true,
+          speed: 500,
+          namespace: "callbacks",
+          before: function () {
+            $('.events').append("<li>before event fired.</li>");
+          },
+          after: function () {
+            $('.events').append("<li>after event fired.</li>");
+          }
+        });
+
+      });
+    </script>
+    <!----//End-slider-script---->
+    <!-- Slideshow 4 -->
+    <div  id="top" class="callbacks_container">
+      <ul class="rslides" id="slider4">
+        <li>
+          <img class="img-responsive" src="images/2.jpg" alt="">
+          <div class="slider-caption">
+            <h1>医疗设备<span>1</span></h1>
+            <p>医疗设备简介医疗设备简介医疗设备简介医疗设备简介医疗设备简介医疗设备简介医疗设备简介医疗设备简介医疗设备简介医疗设备简介医疗设备简介医疗设备简介医疗设备简介. </p>
+            <a class="caption-btn" href="#">查看</a>
+          </div>
+        </li>
+        <li>
+          <img src="images/2.jpg" alt="">
+          <div class="slider-caption">
+            <h1>医疗设备<span>2</span></h1>
+            <p>医疗设备简介医疗设备简介医疗设备简介医疗设备简介医疗设备简介医疗设备简介医疗设备简介医疗设备简介医疗设备简介医疗设备简介医疗设备简介医疗设备简介医疗设备简介. </p>
+            <a class="caption-btn" href="#">查看</a>
+          </div>
+        </li>
+        <li>
+          <img src="images/2.jpg" alt="">
+          <div class="slider-caption">
+            <h1>医疗设备<span>3</span></h1>
+            <p>医疗设备简介医疗设备简介医疗设备简介医疗设备简介医疗设备简介医疗设备简介医疗设备简介医疗设备简介医疗设备简介医疗设备简介医疗设备简介医疗设备简介医疗设备简介. </p>
+            <a class="caption-btn" href="#">查看</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="clearfix"> </div>
+  </div>
+  <!-- slider -->
+</div>
+<!-- /banner -->
+<!-- top-grids -->
+<div class="top-grids text-center">
+  <div class="container">
+    <div class="col-md-3">
+      <div class="top-grid">
+        <span class="t-icon1"> </span>
+        <h3>心跳机设备</h3>
+        <p>心跳机设备简介心跳机设备简介心跳机设备简介心跳机设备简介心跳机设备简介心跳机设备简介心跳机设备简介心跳机设备简介.</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="top-grid">
+        <span class="t-icon2"> </span>
+        <h3>监控设备</h3>
+        <p>监控设备简介监控设备简介监控设备简介监控设备简介监控设备简介监控设备简介监控设备简介监控设备简介监控设备简介监控设备简介.</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="top-grid">
+        <span class="t-icon3"> </span>
+        <h3>医护设备</h3>
+        <p>医护设备简介医护设备简介医护设备简介医护设备简介医护设备简介医护设备简介医护设备简介医护设备简介医护设备简介医护设备简介</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="top-grid">
+        <span class="t-icon4"> </span>
+        <h3>救护设备</h3>
+        <p>救护设备简介救护设备简介救护设备简介救护设备简介救护设备简介救护设备简介救护设备简介救护设备简介救护设备简介救护设备简介救护设备简介救护设备简介.</p>
+      </div>
+    </div>
+    <div class="clearfix"> </div>
+  </div>
+
+</div>
+<!-- top-grids -->
+<!-- mid-grids -->
+<div class="mid-grids">
+  <div class="col-md-6 mid-grid-left">
+
+  </div>
+  <div class="col-md-6 mid-grid-right">
+    <h2>关于我们</h2>
+    <p>关于我们简介.关于我们简介.关于我们简介.关于我们简介.关于我们简介.关于我们简介.关于我们简介.</p>
+    <p>关于我们简介.关于我们简介.关于我们简介.关于我们简介.关于我们简介.关于我们简介.关于我们简介.关于我们简介.关于我们简介.关于我们简介.关于我们简介.关于我们简介.关于我们简介.关于我们简介.关于我们简介..</p>
+    <p>关于我们简介.关于我们简介.关于我们简介.关于我们简介.关于我们简介.关于我们简介.关于我们简介.关于我们简介.关于我们简介..</p>
+    <a class="about-btn" href="#">详情</a>
+  </div>
+  <div class="clearfix"> </div>
+</div>
+<!-- mid-grids -->
+<!-- bottom-grids -->
+<div class="bottom-grids">
+  <h2>产品展示</h2>
+  <div class="bottom-grid bottom-grid1">
+    <div class="container">
+      <div class="col-md-3 bottom-grid-left">
+        <a href="#"><img src="images/2.png" title="name" /></a>
+      </div>
+      <div class="col-md-9 bottom-grid-right">
+        <p>产品1产品1产品1产品1产品1产品1产品1产品1产品1产品1产品1产品1产品1产品1产品1产品1产品1产品1产品1产品1产品1产品1产品1产品1产品1产品1产品1产品1产品1产品1产品1产品1产品1产品1.</p>
+        <a class="news-btn" href="#">详情</a>
+      </div>
+      <div class="clearfix"> </div>
+    </div>
+  </div>
+  <div class="bottom-grid bottom-grid2">
+    <div class="container">
+      <div class="col-md-3 bottom-grid-left">
+        <a href="#"><img src="images/2.png" title="name" /></a>
+      </div>
+      <div class="col-md-9 bottom-grid-right">
+        <p>产品2产品2产品2产品2产品2产品2产品2产品2产品2产品2产品2产品2产品2产品2产品2产品2产品2产品2产品2产品2产品2产品2产品2产品2.</p>
+        <a class="news-btn" href="#">详情</a>
+      </div>
+      <div class="clearfix"> </div>
+    </div>
+  </div>
+  <div class="bottom-grid bottom-grid3">
+    <div class="container">
+      <div class="col-md-3 bottom-grid-left">
+        <a href="#"><img src="images/2.png" title="name" /></a>
+      </div>
+      <div class="col-md-9 bottom-grid-right">
+        <p>产品3产品3产品3产品3产品3产品3产品3产品3产品3产品3产品3产品3产品3产品3产品3产品3产品3产品3产品3.</p>
+        <a class="news-btn" href="#">详情</a>
+      </div>
+      <div class="clearfix"> </div>
+    </div>
+  </div>
+  <div class="clearfix"> </div>
+  <a class="load-news" href="#">更多</a>
+</div>
+</div>
+<!-- bottom-grids -->
+<!-- team -->
+<div class="team">
+  <div class="container">
+    <div class="team-head text-center">
+      <h3>我们的团队</h3>
+    </div>
+    <!-- team-grids -->
+    <div class="team-grids">
+      <div class="col-md-4">
+        <div class="team-grid">
+          <div class="team-people">
+            <div class="team-people-pic">
+              <img src="images/d1.jpg" title="name">
+            </div>
+            <div class="team-people-info">
+              <h3>XX专家</h3>
+              <p>XX专家简介XX专家简介XX专家简介XX专家简介XX专家简介</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="team-grid">
+          <div class="team-people">
+            <div class="team-people-pic">
+              <img src="images/d2.jpg" title="name">
+            </div>
+            <div class="team-people-info">
+              <h3>XX专家1</h3>
+              <p>XX专家简介XX专家简介XX专家简介XX专家简介XX专家简介</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="team-grid">
+          <div class="team-people">
+            <div class="team-people-pic">
+              <img src="images/d3.jpg" title="name">
+            </div>
+            <div class="team-people-info">
+              <h3>XX专家简介3</h3>
+              <p>XX专家简介XX专家简介XX专家简介XX专家简介XX专家简介</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"> </div>
+    </div>
+  </div>
+</div>
+<!-- team -->
+<!-- team-grids-caption -->
+<div class="team-grids-caption">
+  <!--	<div class="container">
+          <div class="team-grids-caption-left">
+              <h4>He point of using Lorem Ipsum is that</h4>
+              <p>as opposed to using Many desktop publishing packages and web page editors now use </p>
+          </div>
+          <div class="team-grids-caption-right">
+              <a class="team-btn" href="contact.html">Contact</a>
+          </div>
+          <div class="clearfix"> </div>
+      </div>-->
+</div>
+<!-- team-grids-caption -->
+<!-- footer -->
+<div class="footer">
+  <div class="container">
+    <p class="copy-right">注册 &copy; 2016.XX版权所有;</p>
+  </div>
+</div>
+<!-- /footer -->
+</body>
+</html>
+
